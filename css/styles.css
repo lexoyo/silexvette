@@ -1,0 +1,387 @@
+
+        .loaded .paged-element-visible {
+            transition: opacity .5s;
+        }
+        .loaded .paged-element.paged-element-hidden {
+            display: inherit;
+            opacity: 0;
+            position: absolute;
+            top:-10000px;
+            transition: opacity .5s, top 0s .5s;
+        }
+        
+        .text-element.paged-element.paged-element-visible {
+            transition: left .5s;
+        }
+        .text-element.paged-element.paged-element-hidden {
+            transition: left .5s, top 0s .5s;
+            display: inherit;
+            position: absolute;
+            left: -10000px;
+        }
+        
+    
+    /* for firefox */
+.paged-element-hidden.animated{
+    animation-name: none !important;
+}
+/* */
+ .link menu {
+    background-color:#99999;
+    transition: all 0.5s ease-out;
+}
+.link-menu:hover,
+.link-menu.page-link-active {
+    background-color: #5eb0f9;
+    transition: all 0.1s ease-in;
+}
+ .typewriter h1 {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
+}
+
+.rotate {
+
+/* Safari */
+-webkit-transform: rotate(-90deg);
+
+/* Firefox */
+-moz-transform: rotate(-90deg);
+
+/* IE */
+-ms-transform: rotate(-90deg);
+
+/* Opera */
+-o-transform: rotate(-90deg);
+
+/* Internet Explorer */
+filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+
+}
+    
+        .body-initial {
+            display: block; 
+            float: none; 
+            width: 100%; 
+            height: 100%; 
+            position: static; 
+            cursor: default; 
+            opacity: 1; 
+            margin: 0; 
+            padding: 0; 
+            overflow: visible; 
+            border: none; 
+            transition: none; 
+            transform: none; 
+            background-color: rgba(25,25,25,0.9725490196078431); 
+            background-image: url('../assets/c7-background-wf-ghost3.jpg'); 
+            background-position: 50% 50%; 
+            background-attachment: fixed; 
+            -webkit-background-size: auto auto; 
+            -moz-background-size: cover; 
+            -o-background-size: cover; 
+            background-size: auto; 
+            background-repeat: no-repeat; 
+        }
+        .silex-id-1484694513764-7 {
+            top: 0px; 
+            left: 0px; 
+            min-width: 960px; 
+            background-color: transparent; 
+        }
+        .silex-id-1484694513764-6 {
+            min-height: 180px; 
+            background-color: transparent; 
+            top: 0px; 
+            left: 0px; 
+            width: 960px; 
+            border-radius: 10px 10px 10px 10px ; 
+        }
+        .silex-id-1484694847072-11 {
+            min-height: 250px; 
+            width: 540px; 
+            top: -22px; 
+            left: 420px; 
+            background-color: transparent; 
+        }
+        .silex-id-1484713959308-5 {
+            min-height: 84px; 
+            width: 236px; 
+            top: 19px; 
+            left: 550px; 
+        }
+        .silex-id-1484713981534-6 {
+            min-height: 84px; 
+            width: 236px; 
+            top: 19px; 
+            left: 550px; 
+        }
+        .silex-id-1484714014334-7 {
+            min-height: 73px; 
+            width: 213px; 
+            top: 27px; 
+            left: 550px; 
+        }
+        .silex-id-1484694761251-9 {
+            width: 216px; 
+            top: 5px; 
+            left: 729px; 
+            padding: 5px; 
+            min-height: 61px; 
+            background-position: center center; 
+            background-repeat: no-repeat; 
+            background-size: cover; 
+            background-color: transparent; 
+            text-shadow: 2px 3px #000000; 
+        }
+        .silex-id-1484694494094-5 {
+            width: 395px; 
+            top: -21px; 
+            left: -1px; 
+            min-height: 140px; 
+            background-color: transparent; 
+        }
+        .silex-id-1484931914697-2 {
+            width: 350px; 
+            top: 40px; 
+            left: 323px; 
+            padding: 5px; 
+            min-height: 20px; 
+            background-position: center center; 
+            background-repeat: no-repeat; 
+            background-size: cover; 
+            background-color: transparent; 
+            text-shadow: 2px 3px #000000; 
+        }
+        .silex-id-1484931813740-1 {
+            width: 300px; 
+            top: 16px; 
+            left: 348px; 
+            padding: 5px; 
+            min-height: 20px; 
+            background-position: center center; 
+            background-repeat: no-repeat; 
+            background-size: cover; 
+            background-color: transparent; 
+            text-shadow: 2px 3px #000000; 
+        }
+        .silex-id-1485326062262-1 {
+            min-height: 84px; 
+            width: 156px; 
+            top: 66px; 
+            left: 768px; 
+        }
+        .silex-id-1484695138735-12 {
+            min-height: 65px; 
+            width: 805px; 
+            top: 134px; 
+            left: 88px; 
+        }
+        .silex-id-1484886452837-1 {
+            width: 265px; 
+            top: 82px; 
+            left: 363px; 
+            padding: 5px; 
+            color: white; 
+            min-height: 20px; 
+            background-color: transparent; 
+            background-attachment: fixed; 
+            background-size: cover; 
+            text-shadow: 1px 1px 12px red, 0 0 5px white, 0 0 50px red; 
+        }
+        .silex-id-1485971051312-0 {
+            min-height: 43px; 
+            width: 88px; 
+            background-color: transparent; 
+            top: 88px; 
+            left: 662px; 
+        }
+        .silex-id-1474394621033-3 {
+            top: 184px; 
+            left: 0px; 
+            background-color: transparent; 
+            background-position: center center; 
+            background-attachment: fixed; 
+            background-size: cover; 
+            background-repeat: no-repeat; 
+            min-width: 960px; 
+        }
+        .silex-id-1474394621032-2 {
+            top: 0px; 
+            left: 148px; 
+            width: 960px; 
+            background-color: transparent; 
+            border-radius: 10px 10px 10px 10px; 
+            min-height: 939px; 
+        }
+        .silex-id-1484713493273-4 {
+            min-height: 30px; 
+            width: 150px; 
+            top: 8px; 
+            left: 26px; 
+        }
+        .silex-id-1484713455061-1 {
+            min-height: 30px; 
+            width: 105px; 
+            top: 8px; 
+            left: 191px; 
+            background-position: center center; 
+            background-size: cover; 
+            background-repeat: no-repeat; 
+        }
+        .silex-id-1484713464106-2 {
+            min-height: 30px; 
+            width: 105px; 
+            top: 8px; 
+            left: 311px; 
+        }
+        .silex-id-1484713474842-3 {
+            min-height: 30px; 
+            width: 105px; 
+            top: 8px; 
+            left: 430px; 
+        }
+        .silex-id-1484881098920-3 {
+            min-height: 302px; 
+            width: 600px; 
+            top: 89px; 
+            left: 11px; 
+        }
+        .silex-id-1484880992455-1 {
+            min-height: 302px; 
+            width: 500px; 
+            top: 89px; 
+            left: 11px; 
+        }
+        .silex-id-1484881420229-8 {
+            width: 449px; 
+            top: 57px; 
+            left: 476px; 
+            padding: 10px; 
+            min-height: 672px; 
+            background-color: transparent; 
+            background-repeat: no-repeat; 
+            background-size: cover; 
+            background-position: center center; 
+        }
+        .silex-id-1484934138271-3 {
+            min-height: 30px; 
+            width: 232px; 
+            top: 8px; 
+            left: 550px; 
+        }
+        .silex-id-1484936428776-8 {
+            width: 450px; 
+            top: 58px; 
+            left: 20px; 
+            min-height: 28px; 
+            background-color: transparent; 
+            text-shadow: 1px 1px 2px black, 0 0 5px, 0 0 5px white; 
+        }
+        .silex-id-1442914737143-3 {
+            width: 450px; 
+            top: 58px; 
+            left: 20px; 
+            min-height: 28px; 
+            background-color: transparent; 
+            text-shadow: 1px 1px 2px black, 0 0 5px, 0 0 5px white; 
+        }
+        .silex-id-1485067775430-0 {
+            min-height: 100px; 
+            width: 296px; 
+            top: 407px; 
+            left: 549px; 
+        }
+        .silex-id-1485067817640-1 {
+            width: 445px; 
+            top: 372px; 
+            left: 63px; 
+            min-height: 317px; 
+        }
+        .silex-id-1484936472467-9 {
+            width: 450px; 
+            top: 48px; 
+            left: 276px; 
+            min-height: 22px; 
+            background-color: transparent; 
+            text-shadow: 1px 1px 2px black, 0 0 5px, 0 0 5px white; 
+        }
+        .silex-id-1484935941919-7 {
+            min-height: 400px; 
+            width: 700px; 
+            top: 38px; 
+            left: 126px; 
+        }
+        .silex-id-1485068004877-2 {
+            width: 173px; 
+            top: 127px; 
+            left: 81px; 
+            min-height: 21px; 
+            text-shadow: 1px 1px 2px black, 0 0 5px, 0 0 5px white; 
+        }
+        .silex-id-1485103236088-1 {
+            width: 163px; 
+            top: 256px; 
+            left: 102px; 
+            min-height: 20px; 
+            text-shadow: 1px 1px 2px black, 0 0 5px, 0 0 5px white; 
+        }
+        .silex-id-1485142962730-1 {
+            min-height: 231px; 
+            width: 486px; 
+            top: 441px; 
+            left: 465px; 
+        }
+        .silex-id-1485198338498-1 {
+            min-height: 800px; 
+            width: 899px; 
+            top: 63px; 
+            left: 33px; 
+        }
+        .silex-id-1485236582294-0 {
+            width: 103px; 
+            top: 12px; 
+            left: 837px; 
+            color: black; 
+            font-size: 30px; 
+            min-height: 38px; 
+            background-color: transparent; 
+            text-align: center; 
+            text-shadow: 1px 1px 2px red, 0 0 5px black, 0 0 10px red; 
+        }
+        .silex-id-1485102969416-0 {
+            min-height: 211px; 
+            width: 445px; 
+            top: 497px; 
+            left: 80px; 
+            background-position: center center; 
+            background-repeat: no-repeat; 
+            background-size: cover; 
+            background-color: transparent; 
+        }
+        .silex-id-1485820234220-4 {
+            min-height: 305px; 
+            width: 631px; 
+            top: 93px; 
+            left: 31px; 
+            background-color: rgba(59,59,59,0.7686274509803922); 
+        }
+    
